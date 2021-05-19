@@ -21,9 +21,6 @@ function drawItems() {
     document.getElementById('items-sold').innerHTML = template
 }
 
-
-
-
 export class ItemController {
     constructor() {
         ProxyState.on('items', drawItems)
@@ -34,7 +31,8 @@ export class ItemController {
         console.log("itemName got selected", itemName)
         let template = ''
         //TODO   work coins
-        document.getElementById('Coin    ').innerHTML = template
+        //
+        document.getElementById('items-sold').innerHTML = template
 
     }
 
