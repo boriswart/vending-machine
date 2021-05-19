@@ -32,7 +32,7 @@ export class ItemController {
         let template = ''
         //TODO   work coins
         //
-        document.getElementById('items-sold').innerHTML = template
+        //document.getElementById('coin-slot').innerHTML = template
 
     }
 

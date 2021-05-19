@@ -2,11 +2,10 @@ class Coin {
     constructor(
         name = "",
         value = 0,
-        img = ''
-    ) {
+        img = '') {
         this.name = name;
         this.value = value;
-        this.img = "";
+        this.img = img;
     }
 }
 

@@ -1,6 +1,7 @@
 import { ProxyState } from "../AppState.js"
 import Coin from "../Models/Coin.js"
 
+
 function drawCoin() {
     let template = ""
     let coin = ProxyState.coin
@@ -15,7 +16,7 @@ function drawCoin() {
 
 export class CoinController {
     constructor() {
-        ProxyState.on('Coin', drawCoin)
+        ProxyState.on('coin', drawCoin)
         drawCoin()
     }
 

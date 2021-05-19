@@ -8,6 +8,7 @@ import { ProxyState } from "./AppState.js";
 class App {
   // insertCoinController = new InsertCoinControler()
   ItemController = new ItemController()
+  CoinController = new CoinController()
 }
 
 console.log(ProxyState)
