@@ -32,6 +32,7 @@ export class ItemController {
 
     selectItem(itemName) {
         console.log("itemName got selected", itemName)
+        let template = ''
         //TODO   work coins
         document.getElementById('Coin    ').innerHTML = template
 
